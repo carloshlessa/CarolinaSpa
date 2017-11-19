@@ -1,6 +1,7 @@
 /** add you css style here **/
 body {
   background-color:#fafafa;
+  
 }
 
 h2 {
@@ -32,6 +33,27 @@ h3 span {
   display: block;
   color: #e082a8;
 }
+
+/** Socials links **/
+
+.socials ul {
+  list-style: none;
+}
+.socials ul li {
+  position: relative;
+  display: inline-block;
+}
+.socials ul li a::before {
+  font-family: 'FontAwesome';
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 4rem;
+  content: '\f08e';
+  color: #e082a8;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2rem;
+}
+
 
 /** Navigation **/
 
