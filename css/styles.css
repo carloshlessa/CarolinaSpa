@@ -1,6 +1,7 @@
 /** add you css style here **/
 body {
   background-color:#fafafa;
+
 }
 
 h2 {
@@ -31,6 +32,41 @@ h3 span {
   font-family: 'Italianno', cursive;
   display: block;
   color: #e082a8;
+}
+
+/** Socials links **/
+
+.socials ul {
+  list-style: none;
+}
+.socials ul li {
+  position: relative;
+  display: inline-block;
+}
+.socials ul li a::before {
+  font-family: 'FontAwesome';
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 .4rem;
+  content: '\f08e';
+  color: #e082a8;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2rem;
+}
+.socials ul li a[href*="facebook.com"]::before {
+  content: '\f230';
+}
+.socials ul li a[href*="twitter.com"]::before {
+  content: '\f081';
+}
+.socials ul li a[href*="instagram.com"]::before {
+  content: '\f16d';
+}
+.socials ul li a[href*="pinterest.com"]::before {
+  content: '\f02d';
+}
+.socials ul li a[href*="youtube.com"]::before {
+  content: '\f16a';
 }
 
 /** Navigation **/
